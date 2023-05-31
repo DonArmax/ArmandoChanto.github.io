@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang = "es">
+
+    <head>
+        <meta charset = "UTF-8">
+        <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+        <meta name = "viewpoint" content = "width=device-width", initial-scale = "1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Montserrat:wght@300&display=swap" 
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Encriptador</title>
+    </head>
+
+    <body>
+        <header>
+            <img class = "logo" src = "imagenes/Frame 6.png" alt = "Logo de Alura">
+            <img class = "tituloImg" src = "imagenes/Imagen1.png" alt = "Titulo">
+        <main>
+            <section>
+                <textarea class = "textArea" cols = "30" rows = "10" placeholder = "Ingrese el texto aquí"></textarea>
+                <div>
+                    <h6 class = "info">&#9888 Solo letras minúsculas y sin acentos</h6>
+                </div>
+                <div class = "botones">
+                    <button class = "btnEncriptar" onclick="btnEncriptar()">Encriptar</button>
+                    <button class = "btnDesencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                </div>
+            </section>
+            <section>
+                <textarea class="textAreaMensaje" cols="20" rows="10" readonly></textarea>
+                <div>
+                    <button class="btnCopiar" onclick="Btncopiar()">Copiar</button>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p class ="copy">&copy 2023 Armando Chanto</p>
+            <section class="buttons">
+                <a href= "https://github.com/DonArmax" target="_blank" class= "fa fa-github"></a>
+                <a href= "https://www.linkedin.com/in/armando-chanto-cr2904/" target="_blank" class= "fa fa-linkedin"></a>
+            </section>
+        </footer>
+        <script src="script.js"></script>
+        
+    </body>
+    
